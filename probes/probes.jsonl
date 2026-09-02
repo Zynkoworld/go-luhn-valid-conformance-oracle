@@ -1,0 +1,16 @@
+{"input": "1", "expect": false, "raised": false, "task": "luhn", "lang": "go"}
+{"input": "0", "expect": false, "raised": false, "task": "luhn", "lang": "go"}
+{"input": "059", "expect": true, "raised": false, "task": "luhn", "lang": "go"}
+{"input": "055 444 285", "expect": true, "raised": false, "task": "luhn", "lang": "go"}
+{"input": "055 444 286", "expect": false, "raised": false, "task": "luhn", "lang": "go"}
+{"input": "8273 1232 7352 0569", "expect": false, "raised": false, "task": "luhn", "lang": "go"}
+{"input": "1 2345 6789 1234 5678 9013", "expect": false, "raised": false, "task": "luhn", "lang": "go"}
+{"input": "095 245 88", "expect": true, "raised": false, "task": "luhn", "lang": "go"}
+{"input": "059a", "expect": false, "raised": false, "task": "luhn", "lang": "go"}
+{"input": "055-444-285", "expect": false, "raised": false, "task": "luhn", "lang": "go"}
+{"input": "055# 444$ 285", "expect": false, "raised": false, "task": "luhn", "lang": "go"}
+{"input": "0000 0", "expect": true, "raised": false, "task": "luhn", "lang": "go"}
+{"input": "091", "expect": true, "raised": false, "task": "luhn", "lang": "go"}
+{"input": "9999999999 9999999999 9999999999 9999999999", "expect": true, "raised": false, "task": "luhn", "lang": "go"}
+{"input": "055b 444 285", "expect": false, "raised": false, "task": "luhn", "lang": "go"}
+{"input": ":9", "expect": false, "raised": false, "task": "luhn", "lang": "go"}
